@@ -1,0 +1,11 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "nodeDbg",
+      "name": "C:\\Users\\Nicola\\react\\Solution1",
+      "project": ""
+    }
+  ]
+}
