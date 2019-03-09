@@ -61,7 +61,9 @@
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="public\favicon.ico" />
-    <Content Include="public\index.html" />
+    <Content Include="..\public\index.html">
+      <Link>public\index.html</Link>
+    </Content>
     <Content Include="public\manifest.json" />
     <Content Include="README.md" />
     <Content Include="src\App.css" />
