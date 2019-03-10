@@ -27,7 +27,7 @@ function ButtonAppBar(props) {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="fixed">
                 <Toolbar>
                     <Drawer className={classes.menuButton} />
                     <br></br>                       

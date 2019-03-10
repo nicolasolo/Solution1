@@ -50,6 +50,11 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\static\" />
+    <Folder Include="build\static\css\" />
+    <Folder Include="build\static\js\" />
+    <Folder Include="build\static\media\" />
     <Folder Include="public\" />
     <Folder Include="src\" />
     <Folder Include="src\Components\" />
@@ -59,6 +64,16 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <None Include="CustomProfile.pubxml" />
+    <Content Include="build\asset-manifest.json" />
+    <Content Include="build\favicon.ico" />
+    <Content Include="build\index.html" />
+    <Content Include="build\manifest.json" />
+    <Content Include="build\static\css\main.8059df1f.chunk.css" />
+    <Content Include="build\static\css\main.8059df1f.chunk.css.map" />
+    <Content Include="build\static\js\2.e845e1a1.chunk.js.map" />
+    <Content Include="build\static\js\main.8e516456.chunk.js.map" />
+    <Content Include="build\static\js\runtime~main.e2a8d660.js.map" />
+    <Content Include="build\static\media\header-bg.747b9a0f.jpg" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="public\favicon.ico" />
@@ -71,6 +86,11 @@
     <Content Include="src\logo.svg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="build\precache-manifest.ec8aee4925655f4ef6c396dae2c8dfa5.js" />
+    <Compile Include="build\service-worker.js" />
+    <Compile Include="build\static\js\2.e845e1a1.chunk.js" />
+    <Compile Include="build\static\js\main.8e516456.chunk.js" />
+    <Compile Include="build\static\js\runtime~main.e2a8d660.js" />
     <Compile Include="src\App.js" />
     <Compile Include="src\App.test.js" />
     <Compile Include="src\Components\AppBar.js" />
