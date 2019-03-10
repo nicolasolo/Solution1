@@ -30,9 +30,7 @@ function ButtonAppBar(props) {
             <AppBar position="static">
                 <Toolbar>
                     <Drawer className={classes.menuButton} />
-                    <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-                       
-                    </IconButton>
+                    <br></br>                       
                     <Typography variant="h6" color="inherit" className={classes.grow}>
                         Airin Love For Children
           </Typography>
